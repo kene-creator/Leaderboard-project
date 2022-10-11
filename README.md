@@ -1,8 +1,8 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# To do list
+# Leaderboard
 
-> This is a demo to do list application
+> This is a demo leaderboard application
 
 ## Built With
 
@@ -10,10 +10,11 @@
 - CSS
 - Javascript
 - Webpack
+- Gitflow
 
 ## Getting Started
 
-**[Clone the project](https://github.com/kene-creator/To-do-list.git), open up your terminal and run npm install. To install all the devDependenceies needed for the project to run smoothly. Next on your terminal type npm run build to get the project started and npm run dev to open with live server**
+**[Clone the project](https://github.com/kene-creator/Leaderboard-project.git), open up your terminal and run npm install. To install all the devDependenceies needed for the project to run smoothly. Next on your terminal type npm run build to get the project started and npm run dev to open with live server**
 
 ### Install
 
