@@ -83,3 +83,18 @@ body {
   padding: 0.5rem 8rem 0.5rem 0.3rem;
   width: 100%;
 }
+
+.submit-btn {
+  padding: 0 2rem;
+  height: 3rem;
+  font-size: 1.7rem;
+  border: black solid 2px;
+  background-color: transparent;
+  border-radius: 1rem;
+  -webkit-border-radius: 1rem;
+  -moz-border-radius: 1rem;
+  -ms-border-radius: 1rem;
+  -o-border-radius: 1rem;
+  width: 40%;
+  align-self: flex-end;
+}
