@@ -70,7 +70,10 @@ body {
   list-style-type: none;
   font-size: 2rem;
   border: 2px solid black;
-  padding: 1rem;
+}
+
+.score-list {
+  padding: 0.5rem 0 0.5rem 3rem;
 }
 
 .form {
@@ -97,4 +100,8 @@ body {
   -o-border-radius: 1rem;
   width: 40%;
   align-self: flex-end;
+}
+
+.bg-gray {
+  background-color: rgba(128, 128, 128, 0.355);
 }
