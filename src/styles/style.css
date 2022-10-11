@@ -29,7 +29,7 @@ body {
 
 .leaderboard_section {
   display: flex;
-  width: 70%;
+  width: 60%;
   margin: 5rem auto;
 }
 
@@ -48,10 +48,12 @@ body {
 .title-name {
   font-size: 2.7rem;
   margin-right: 3rem;
+  margin-bottom: 3rem;
   font-weight: 600;
 }
 
 .refresh-btn {
+  margin-bottom: 3rem;
   padding: 0 2rem;
   height: 3rem;
   font-size: 1.7rem;
@@ -62,4 +64,22 @@ body {
   -moz-border-radius: 1rem;
   -ms-border-radius: 1rem;
   -o-border-radius: 1rem;
+}
+
+.score-items {
+  list-style-type: none;
+  font-size: 2rem;
+  border: 2px solid black;
+  padding: 1rem;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+.input {
+  margin: 0 0 2rem 0;
+  padding: 0.5rem 8rem 0.5rem 0.3rem;
+  width: 100%;
 }
