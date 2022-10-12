@@ -13,7 +13,7 @@ refreshBtn.addEventListener('click', () => {
 
 form.addEventListener('submit', (e) => {
   e.preventDefault();
-  if (inputName.value === 0 && inputScore.value === 0) return;
+  if (inputName.value === '' && inputScore.value === '') return;
   addScore(e);
   form.reset();
 });
