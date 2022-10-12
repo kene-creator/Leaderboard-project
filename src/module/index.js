@@ -1,9 +1,17 @@
 import '../styles/style.css';
+import { refreshScoreList, addScore } from './helper';
+import { API_URL } from './config';
 
-const list = document.querySelectorAll('.score-list');
+const refreshBtn = document.querySelector('.refresh-btn');
+const form = document.querySelector('form');
 
-list.forEach((el, i) => {
-  if (i % 2 === 0) {
-    el.classList.add('bg-gray');
-  }
+refreshBtn.addEventListener('click', () => {
+  refreshScoreList(API_URL);
 });
+
+form.addEventListener('submit', (e) => {
+  e.preventDefault();
+  addScore(e);
+  form.reset();
+});
+windows.addEventListener('load', refreshScoreList);
