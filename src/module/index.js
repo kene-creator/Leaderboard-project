@@ -4,6 +4,8 @@ import { API_URL } from './config';
 
 const refreshBtn = document.querySelector('.refresh-btn');
 const form = document.querySelector('form');
+const inputName = document.querySelector('.input-name');
+const inputScore = document.querySelector('.input-score');
 
 refreshBtn.addEventListener('click', () => {
   refreshScoreList(API_URL);
@@ -11,6 +13,7 @@ refreshBtn.addEventListener('click', () => {
 
 form.addEventListener('submit', (e) => {
   e.preventDefault();
+  if (inputName.value === 0 && inputScore.value === 0) return;
   addScore(e);
   form.reset();
 });
