@@ -14,4 +14,4 @@ form.addEventListener('submit', (e) => {
   addScore(e);
   form.reset();
 });
-windows.addEventListener('load', refreshScoreList);
+window.addEventListener('load', refreshScoreList(API_URL));

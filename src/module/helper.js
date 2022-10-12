@@ -23,7 +23,7 @@ export const refreshScoreList = async function (url) {
     console.log(data);
     return data;
   } catch (err) {
-    throw err;
+    console.error(err);
   }
 };
 
