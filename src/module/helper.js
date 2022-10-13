@@ -1,14 +1,20 @@
 import { API_URL } from './config';
+import { renderSpinner } from './spinner';
 
 export const refreshScoreList = async function (url) {
   try {
     const scoresContainer = document.querySelector('.score-items');
     scoresContainer.innerHTML =
       '<li class="score-list fw-600"><span>#</span><span>Name</span><span>Score</span></li>';
+    renderSpinner();
     const res = await fetch(url);
 
     const data = await res.json();
     console.log(data);
+
+    scoresContainer.innerHTML = '';
+    scoresContainer.innerHTML =
+      '<li class="score-list fw-600"><span>#</span><span>Name</span><span>Score</span></li>';
 
     data.result.forEach((score, i) => {
       scoresContainer.innerHTML += `

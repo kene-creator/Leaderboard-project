@@ -7,8 +7,9 @@ const form = document.querySelector('form');
 const inputName = document.querySelector('.input-name');
 const inputScore = document.querySelector('.input-score');
 
-refreshBtn.addEventListener('click', () => {
+refreshBtn.addEventListener('click', (e) => {
   refreshScoreList(API_URL);
+  console.log(e.target);
 });
 
 form.addEventListener('submit', (e) => {

@@ -68,6 +68,24 @@ body {
   cursor: pointer;
 }
 
+.refresh-btn:hover {
+  background-color: rgba(0, 0, 255, 0.508);
+  color: #fff;
+  transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+}
+
+.refresh-btn:active {
+  transform: translateY(0.2rem);
+  -webkit-transform: translateY(0.2rem);
+  -moz-transform: translateY(0.2rem);
+  -ms-transform: translateY(0.2rem);
+  -o-transform: translateY(0.2rem);
+}
+
 .score-items {
   list-style-type: none;
   font-size: 1.5rem;
@@ -117,10 +135,50 @@ body {
   cursor: pointer;
 }
 
+.submit-btn:hover {
+  background-color: rgba(0, 0, 255, 0.508);
+  color: #fff;
+  transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+}
+
+.submit-btn:active {
+  transform: translateY(0.2rem);
+  -webkit-transform: translateY(0.2rem);
+  -moz-transform: translateY(0.2rem);
+  -ms-transform: translateY(0.2rem);
+  -o-transform: translateY(0.2rem);
+}
+
 .bg-gray {
   background-color: rgba(128, 128, 128, 0.355);
 }
 
 .fw-600 {
   font-weight: 700;
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.spinner {
+  margin: 5rem auto;
+  text-align: center;
+}
+
+.spinner svg {
+  height: 6rem;
+  width: 6rem;
+  fill: gray;
+  animation: rotate 2s infinite linear;
 }
