@@ -12,17 +12,20 @@
 - Webpack
 - Gitflow
 
+## See Live Demo
+
+[Live](https://kene-creator.github.io/Leaderboard-project/dist/)
+
 ## Getting Started
 
 **[Clone the project](https://github.com/kene-creator/Leaderboard-project.git), open up your terminal and run npm install. To install all the devDependenceies needed for the project to run smoothly. Next on your terminal type npm run build to get the project started and npm run dev to open with live server**
 
 ### Install
 
--Webhint
--StyleLint
--eslint
--node-sass
--webpack 5
+- Webhint
+- StyleLint
+- eslint
+- webpack 5
 
 ## Authors
 
