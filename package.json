@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "homepage": "https://github.com/kene-creator/Leaderboard-project/dist",
+  "homepage": "https://kene-creator.github.io/Leaderboard-project/dist/",
   "scripts": {
     "build": "webpack",
     "dev": "webpack serve",
